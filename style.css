@@ -1,0 +1,594 @@
+@font-face {
+    font-family: "rolexfont";
+    src: url(UsrFont/RolexFont-Regular-WebS.woff2) format("truetype");
+  }
+  @font-face{
+    font-family: "rol";
+    src: url(UsrFont/RolexFont-Light-WebS.woff2)
+  }
+  @font-face{
+    font-family: "rolp";
+    src:url(UsrFont/RolexFont-Light-WebS.woff2)
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+nav{
+    width: 100%;
+    height: 13vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 20px 4% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 90px;
+    margin-left: 20%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color:#249a64;
+    transition: all .3s ease;
+}
+nav i{
+    padding: 7px;
+    width: 15;
+    height: 15;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10px;
+}
+nav a:hover{
+    color: #249a64;
+    transition: all .3s ease;
+}
+.back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width :fit-content;
+    height :120vh;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+.GMT-MASTER{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+h1{
+    font-family:'rolexfont',sans-serif ;
+   font-weight:lighter;
+   letter-spacing: 2px;
+   padding-bottom: 10px;
+}
+h4{
+    font-family:'rolexfont',sans-serif ;
+   font-weight:lighter;
+   letter-spacing: 2px;
+}
+
+
+
+/* condent tag */
+
+
+.condent{
+width: 100%;
+height: 100vh;
+position: absolute;
+display: inline;
+align-items: center;
+justify-content: center;
+font-family:'rol',sans-serif;
+padding-left: 10%;
+
+}
+.condent h1{
+    text-align: justify;
+    margin-top: 80px;
+}
+.condent > p{
+    width: 100%;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+   font-size: 10px;
+   font-family: 'rolp',sans-serif;
+}
+#txthead{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    color:transparent;
+    background-image: url("https://content.rolex.com/dam/homepage/cut-out/homepage-gmt-master-ii-m126715chnr-0001-cutout-background.jpg"); background-position: center 36.8277%;
+    color:transparent;
+    background-size: cover;
+    --webkit-background-clip:text;
+    -webkit-background-clip: text;
+    width: 80%;
+    
+}
+.headcond{
+    align-items: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.row a{
+    text-decoration: none;
+    color: hsl(152.5,62.1%,37.3%);
+}
+.rowa{
+    font-size: 17px;
+    color: hsl(152.5,62.1%,37.3%);
+    text-decoration: none;
+    border: 1px solid hsl(152.5,62.1%,37.3%);
+    border-radius: 30px 30px;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+}
+.rowb{
+    padding-left: 40px;
+}
+span{
+ display: flex;
+ padding-top: 15px;
+ padding-left: 40px;  
+}
+.rowa:hover{
+    background-color:hsl(152.5,62.1%,37.3%);
+    color: #fff;
+    transition: all .7s ease;
+}
+.rowb:hover{
+    color: rgb(151, 218, 186);
+    transition: all .5s ease;
+}
+
+
+.roler{
+    padding-top: 10%;
+display: flex;
+}
+.roler >a{
+    text-decoration: none;
+    color: hsl(152.5,62.1%,37.3%);
+}
+
+.watchscroll{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 32%;
+    overflow-x: auto;  
+}
+.scrwatch p{
+    font-family: 'rol',sans-serif;
+    font-size: 12px;
+}
+.scrwatch  img{
+    width: 350px;
+transition: transform 1s;
+}
+.scrwatch:hover img{
+   transform: scale(1.1,1.1);
+}
+
+
+.rolau{
+   
+    width: 100%;
+    padding-top: 70%;
+}
+.au-video{
+    position:absolute;
+    z-index: -1;
+    width :fit-content;
+    height :120vh;
+    width: 100%;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+.rolau h1{
+    padding-top: 2%;
+    color: #fff;
+    font-family: 'rolexfont',sans-serif;
+    font-size: 40px;
+    padding-left: 12%;
+   
+}
+.rolau h6{
+    padding-top: 20%;
+    color: #fff;
+    font-family: 'rolexfont',sans-serif;
+    padding-left: 12%;
+}
+.disco{
+    margin-top: 40px;
+}
+.disco a{
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 20px 20px;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin-left: 12%;
+    color: #fff;
+}
+.disco a:hover{
+    background-color: #249a64;
+    border: hsl(152.5,62.1%,37.3%);
+}
+
+.dicrolex{
+    padding-top:20% ;
+    padding-left: 10%;
+}
+.dicrolex h4{
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ocian{
+    height:70vh;
+    width: 70%;
+    transition: transform 1s;
+}
+.ocian img{
+    display: block;
+    width: 135%;
+    height: 60vh;
+    border-radius: 20px 20px;
+    margin-right: 200px;
+    
+}
+.ocian:hover{
+    transform: scale(1.05,1.05);
+}
+.ocian h3{
+    padding-top: 15px;
+    font-family: 'rolexfont',sans-serif;
+}
+.ocian a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.twoimg{
+    display: flex;
+    padding-left: 10%;
+    
+}
+.twoimg img{
+    border-radius: 20px;
+    width: 80%;
+    transition: transform 1s;
+}
+.twoimg h2{
+    font-family: 'rol',sans-serif;
+    font-size: 20px;
+    letter-spacing: 7px;
+    
+}
+.twoimg img:hover{
+    transform: scale(1.05,1.05);
+}
+.footer{
+    width: 100%;
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+}
+.footer h2{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 55px;
+    margin-bottom: 15px;
+    font-family: 'rolexfont',sans-serif;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 0px auto 50px;
+}
+.social a{
+width: 40px;
+height: 40px;
+margin: 10px 10px;
+background-color: #fff;
+justify-content: center;
+align-items: center;
+border:1px transparent;
+border-radius: 120px;
+color: #249a64;;
+}
+.social i{
+    padding-top:12px ;
+    padding-left: 12px;
+}
+.social a:hover{
+    color: #fff;
+    background-color:#249a64;
+    transition: all .5s ease;
+}
+.footer-about{
+    color: rgb(212, 212, 212);
+    background-color: rgb(33, 33, 33);
+    position: relative;
+    padding: 0;
+}
+.footer-first-row{
+    margin: 0px auto;
+    width: 90%;
+    padding: 50px 0px;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8125rem;
+    font-weight: 400;
+}
+.footer-first-row a{
+    color:#fff;
+    text-decoration: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+.footer-first-row a:hover{
+    color: goldenrod;
+    transition: all .3s ease;
+}
+.footer-first-row i{
+    padding: 10px;
+}
+
+.footer-second-row{
+    margin: 0px auto;
+    width: 80%;
+    padding: 0px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer-first-colum{
+    width: 33.3333%;
+    margin-right: 20PX;
+    
+   
+}
+.footer-second-coum-box p{
+font-family: 'rol',sans-serif;
+letter-spacing: 1px;
+color: #e6e6e6;
+font-size: 0.625rem;
+font-weight: 400;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+margin: 0px;
+padding: 0px 0px 5px;
+
+}
+.footer-second-coum-box ul{
+    display: inline-block;
+    margin: 10px 0px 20px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+.footer-second-coum-box li{
+    color: #e6e6e6;
+    font-size: 0.8125rem;
+    line-height: 1.8em;
+    font-weight: 400;
+    cursor: pointer;
+    list-style-type: none;
+   
+}
+.footer-second-coum-box a{
+   
+    align-items: center;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.footer-second-colum-box a:hover{
+    color: goldenrod;
+    transition: all .3s ease;
+}
+.footer-world-of-rolex{
+    padding-top:10px;
+}
+.footer-world-of-rolex p{
+    font-family: 'rol',sans-serif;
+    color: #e6e6e6;
+    font-size: 0.625rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 0px;
+    padding: 0px 0px 5px;
+}
+.footer-world-of-rolex ul{
+    display: inline-block;
+    margin: 10px 0px 20px;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer-world-of-rolex li{
+    color: #e6e6e6;
+    font-size: 0.8125rem;
+    line-height: 1.8em;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer-world-of-rolex a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-world-of-rolex a:hover{
+    color: goldenrod;
+    transition: all .3s ease;
+}
+
+
+.footer-service p{
+    color: #e6e6e6;
+    font-size: 0.625rem;
+    border-width: 400;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 0px;
+    padding: 0px 0px 5px;
+    font-family: 'rol',sans-serif;
+}
+.footer-service ul{
+    display: inline-block;
+    margin: 10px 0px 20px ;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer-service li{
+    color: #e6e6e6;
+    font-size: 0.8125rem;
+    line-height: 1.8em;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer-service a{
+    text-decoration: none;
+    color: inherit;
+}
+.fa-right-from-bracket{
+    padding: 7px;
+}
+.footer-second-colum{
+    width: 33.3333%;
+    margin-right: 20px;
+}
+.footer-second-colum-box p{
+    color: #e6e6e6;
+    font-size: 0.625rem;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 0px;
+    padding: 0px 0px 5px;
+    font-family: 'rol',sans-serif;
+}
+.footer-second-colum-box ul{
+    display: inline-block;
+    margin: 10px 0px 20px;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer-second-colum-box li{
+    color: #e6e6e6;
+    font-size: 0.8125rem;
+    line-height: 2.2em;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer-second-colum-box a{
+    color: inherit;
+    text-decoration: none;
+}
+.footer-second-colum-box a:hover{
+    color: goldenrod;
+    transition: all .3s ease;
+}
+
+.footer-third-colum-box p{
+    font-family: 'rol',sans-serif;
+    color: #e6e6e6;
+    font-size: 0.625rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px 0px 5px;
+
+}
+.footer-third-colum-box ul{
+    display: inline-block;
+    margin: 10px 0px 20px ;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+.footer-third-colum-box li{
+    color: #e6e6e6;
+    font-size: 0.8125rem;
+    line-height: 1.8em;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 40px;
+}
+.footer-third-colum-box a{
+    color: inherit;
+    text-decoration: none;
+}
+.footer-third-colum-box a:hover{
+    color: goldenrod;
+    transition: all .3s ease;
+}
+.footer-third-colum-box i{
+    padding:10px;
+}
+.back-to-top{
+    
+    position: relative;
+    padding: 25px 25px;
+    margin: 0px auto;
+    width: 100%;
+    
+    border-top: 1px solid rgba(255,255,255,0.1);
+   
+}
+.back-to-top a{
+    display: flex;
+    display: inline-flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #e6e6e6;
+    font-size: 25px;
+    padding-left: 50%;
+   
+}
+.back-to-top a:hover{
+    color: goldenrod;
+    transition: all .5s ease;
+    
+}
